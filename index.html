@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+	
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class=" text-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="container mt-6 mx-auto flex justify-between items-center">
+			<!-- Логотип -->
+			<div id="logo" class="flex-shrink-0">
+				<a href="index.html" class="text-2xl font-normal flex items-center">
+					<img src="/public/images/logo 64x64.png" alt="Logo" class="w-10 h-10 mr-2">
+					Анна Гаранина
+				</a>
+			</div>
+			<!-- Личный кабинет и Корзина -->
+			<div class="flex items-center space-x-8">
+				<!-- Личный кабинет -->
+				<div id="Account">
+					<a href="#" class="text-gray-800 hover:text-gray-600 flex items-center space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+							<path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z" clip-rule="evenodd" />
+						</svg>
+						<span>Личный кабинет</span>
+					</a>
+				</div>
+				<!-- Корзина -->
+				<div id="viewCart">
+					<a href="#" class="text-gray-800 hover:text-gray-600 flex items-center space-x-2">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+							<path d="M1 1.75A.75.75 0 0 1 1.75 1h1.628a1.75 1.75 0 0 1 1.734 1.51L5.18 3a65.25 65.25 0 0 1 13.36 1.412.75.75 0 0 1 .58.875 48.645 48.645 0 0 1-1.618 6.2.75.75 0 0 1-.712.513H6a2.503 2.503 0 0 0-2.292 1.5H17.25a.75.75 0 0 1 0 1.5H2.76a.75.75 0 0 1-.748-.807 4.002 4.002 0 0 1 2.716-3.486L3.626 2.716a.25.25 0 0 0-.248-.216H1.75A.75.75 0 0 1 1 1.75ZM6 17.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0ZM15.5 19a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" />
+						</svg>
+						<span>Корзина</span>
+					</a>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="bg-rose-200 rounded-lg my-4 container mx-auto px-2 py-2 flex justify-between items-center">
+
+		<!-- Меню -->
+		<nav class="menu-lg hidden md:flex gap-x-6 font-bold justify-center w-full">
+			<a href="#about" class="hover:text-zinc-400">О проекте</a>
+			<a href="#services" class="hover:text-zinc-400">Обучение материнству</a>
+			<a href="#reviews" class="hover:text-zinc-400">Отзывы</a>
+			<a href="#articles" class="hover:text-zinc-400">Статьи</a>
+			<a href="#search" class="hover:text-zinc-400">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+					<path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
+				</svg>				
+			</a>
+		</nav>
+		<button class="md:hidden text-white" id="menu-toggle">
+			☰
+		</button>
+	</div>
+	
+	<!-- Mobile Menu -->
+	<nav id="mobile-menu" class="hidden bg-gray-700">
+		<a href="#about" class="block px-4 py-2 hover:bg-gray-600">О проекте</a>
+		<a href="#services" class="block px-4 py-2 hover:bg-gray-600">Обучение</a>
+		<a href="#reviews" class="block px-4 py-2 hover:bg-gray-600">Отзывы</a>
+		<a href="#articles" class="block px-4 py-2 hover:bg-gray-600">Статьи</a>
+		<a href="#search" class="block px-4 py-2 hover:bg-gray-600">Поиск</a>
+	</nav>
+      
+  </header>
+
+  <!-- Main Section -->
+  <main class="m-10">
+    <!-- About Section -->
+    <section id="about" class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6">О проекте</h2>
+        <p class="text-gray-700 text-center max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque interdum arcu, id facilisis elit luctus et.</p>
+      </div>
+    </section>
+
+		<!-- Main Section -->
+		<main>
+			<!-- About Section -->
+			<section id="about" class="bg-white py-16">
+				<div class="container mx-auto px-4">
+					<h2 class="text-3xl font-bold text-center mb-6">О проекте</h2>
+					<p class="text-gray-700 text-center max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque interdum arcu, id facilisis elit luctus et.</p>
+				</div>
+			</section>
+
+		<!-- Main Section -->
+		<main>
+			<!-- About Section -->
+			<section id="about" class="bg-white py-16">
+				<div class="container mx-auto px-4">
+					<h2 class="text-3xl font-bold text-center mb-6">О проекте</h2>
+					<p class="text-gray-700 text-center max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque interdum arcu, id facilisis elit luctus et.</p>
+				</div>
+		</section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6">Обучение</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white shadow-md p-4">
+            <h3 class="text-xl font-bold">Курс 1</h3>
+            <p class="text-gray-600">Краткое описание курса.</p>
+          </div>
+          <div class="bg-white shadow-md p-4">
+            <h3 class="text-xl font-bold">Курс 2</h3>
+            <p class="text-gray-600">Краткое описание курса.</p>
+          </div>
+          <div class="bg-white shadow-md p-4">
+            <h3 class="text-xl font-bold">Курс 3</h3>
+            <p class="text-gray-600">Краткое описание курса.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="bg-white py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-6">Отзывы</h2>
+        <div class="flex flex-col md:flex-row gap-6">
+          <blockquote class="bg-gray-100 p-4 rounded">
+            <p>"Лучший проект! Очень доволен!"</p>
+            <cite class="block mt-2 text-gray-600">- Иван Иванов</cite>
+          </blockquote>
+          <blockquote class="bg-gray-100 p-4 rounded">
+            <p>"Отличное обучение, советую!"</p>
+            <cite class="block mt-2 text-gray-600">- Анна Смирнова</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+	<script type="module" src="/src/js/main.js"></script> 
+</body>
+</html>
+

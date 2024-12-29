@@ -1,0 +1,22 @@
+@import 'normalize.css'; 
+@import 'variables.scss';
+
+// директивы Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+ 	src: local("Roboto"),
+	 url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2") format("woff2"),
+	 url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff") format("woff");
+}
+
+body {
+  font-family: "Roboto", "San Francisco", "SegaUI", sans-serif;
+}
+
